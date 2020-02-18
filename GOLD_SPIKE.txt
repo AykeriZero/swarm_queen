@@ -1,0 +1,10 @@
+# Project 2 EECS 494 -- Swarm Queen
+
+# Controls
+
+Player 1 is controlled with the arrow keys (or ASDW)
+Player 2 is controlled with the left joystick on an xbox controller
+
+# Gold Spike Mechanic
+
+The most difficult technical aspect of this spike is the swarm movement. All the child blobs should focus/orbit around the queen blob of their respective player. Furthermore, smaller blobs should move faster than larger ones.
