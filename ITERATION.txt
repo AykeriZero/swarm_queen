@@ -1,0 +1,8 @@
+# Feedback and Response
+
+The biggest feedback I received from the playtesting session was that the avatars were confusing and difficult to control. The main avatar, the circle with eyes, is supposed to be the focus of the player and the children blobs are attracted to this avatar. To fix this problem and make the movement clearer, I changed the movement implementation from a rb.addforce to a simpler velocity setting based on input (so the main avatar stops as soon as the input stops), I also made it so that the child blobs don't move in the direction of input and exclusively move toward the main avatar.
+
+Another major feedback I received was that the damaging walls on all four sides of the stage weren't obviously dangerous and impactful to the game. In the original spike, they were colored red to indicate harm to the players, but I modified their sprite so that they are now both red and spiky. I also made it so that the walls slowly close in as the stage progresses because the players speed up as they take damage and are therefore become harder to defeat with time. In this way, I added time pressure to the game without directly implementing a timer.
+
+
+
